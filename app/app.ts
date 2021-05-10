@@ -5,5 +5,9 @@ purpose of the file is to pass control to the app’s first module.
 */
 
 import { svelteNative } from 'svelte-native'
-import App from './App.svelte'
-svelteNative(App, {})
+import Menu from './Menu.svelte'
+
+import { install } from '../../demo-snippets/svelte/install';
+install();
+
+svelteNative(Menu, {})

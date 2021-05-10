@@ -15,10 +15,11 @@
     "baseUrl": ".",
     "paths": {
       "~/*": ["app/*"],
-      "@/*": ["app/*"]
+      "@/*": ["app/*"],
+      "*": ["node_modules/*"]
     }
   },
-  "include": ["app/**/*"],
+  "include": ["app/**/*", "../demo-svelte"],
   "files": ["./references.d.ts"],
   "exclude": ["node_modules", "platforms"]
 }
