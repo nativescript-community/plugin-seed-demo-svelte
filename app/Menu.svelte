@@ -19,7 +19,7 @@
 <script lang="typescript">
     import { navigate } from 'svelte-native';
     import { onMount } from 'svelte';
-    import { demos } from './linked-components/install';
+    import { demos } from '../../demo-snippets/svelte/install';
     function goToDemo(component) {
         navigate({
             page: component,
