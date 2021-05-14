@@ -32,12 +32,12 @@
         });
     }
     onMount(() => {
-        if (isDevelopment) {
-            const Development = demos.find(({ name }) => name === 'Development');
-            if (Development) {
+        if (demoRedirect) {
+            const Demo = demos.find(({ path }) => path === demoRedirect);
+            if (Demo) {
                 setTimeout(() => {
                     navigate({
-                        page: Development.component,
+                        page: Demo.component,
                         animated: false
                     });
                 }, 0);
