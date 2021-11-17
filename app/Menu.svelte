@@ -1,6 +1,3 @@
-<style>
-</style>
-
 <page>
     <actionBar title="Svelte Demo" />
     <scrollView>
@@ -16,7 +13,7 @@
     </scrollView>
 </page>
 
-<script lang="typescript">
+<script lang="ts">
     import { navigate } from 'svelte-native';
     import { onMount } from 'svelte';
     import { demos } from '../../demo-snippets/svelte/install';
