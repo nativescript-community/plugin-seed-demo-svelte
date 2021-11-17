@@ -4,10 +4,10 @@ You can use this file to perform app-level initialization, but the primary
 purpose of the file is to pass control to the app’s first module.
 */
 
-import { svelteNative } from 'svelte-native'
-import Menu from './Menu.svelte'
+import { svelteNative } from 'svelte-native';
+import Menu from './Menu.svelte';
 
 import { installPlugin } from '../../demo-snippets/svelte/install';
 installPlugin();
 
-svelteNative(Menu, {})
+svelteNative(Menu, {});
