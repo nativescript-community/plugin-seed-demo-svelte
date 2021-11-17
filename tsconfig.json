@@ -13,13 +13,11 @@
     "lib": ["dom", "es2017"],
     "types": ["svelte"],
     "baseUrl": ".",
-    "paths": {
+      "paths": {
       "~/*": ["app/*"],
-      "@/*": ["app/*"],
-      "*": ["node_modules/*"]
+      "@/*": ["app/*"]
     }
   },
-  "include": ["app/**/*", "../demo-svelte"],
-  "files": ["./references.d.ts"],
+  "include": ["app", "./references.d.ts", "../demo-snippets/svelte"],
   "exclude": ["node_modules", "platforms"]
 }
