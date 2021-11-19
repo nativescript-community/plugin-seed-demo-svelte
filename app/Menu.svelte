@@ -1,18 +1,3 @@
-<page>
-    <actionBar title="Svelte Demo" />
-    <scrollView>
-        <stackLayout>
-            {#each demos as demo}
-                <button
-                    text={demo.name}
-                    on:tap={() => {
-                        goToDemo(demo.component);
-                    }} />
-            {/each}
-        </stackLayout>
-    </scrollView>
-</page>
-
 <script lang="ts">
     import { navigate } from 'svelte-native';
     import { onMount } from 'svelte';
@@ -42,3 +27,14 @@
         }
     });
 </script>
+
+<page>
+    <actionBar title="Svelte Demo" />
+    <scrollView>
+        <stackLayout>
+            {#each demos as demo}
+                <button text={demo.name} on:tap={() => goToDemo(demo.component)} />
+            {/each}
+        </stackLayout>
+    </scrollView>
+</page>
