@@ -19,6 +19,7 @@
             if (Demo) {
                 setTimeout(() => {
                     navigate({
+                        //@ts-ignore
                         page: Demo.component,
                         animated: false
                     });
