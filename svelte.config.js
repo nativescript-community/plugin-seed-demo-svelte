@@ -4,5 +4,13 @@ module.exports = {
     compilerOptions: {
         namespace: 'foreign'
     },
-    preprocess: sveltePreprocess(),
+    preprocess: [
+        sveltePreprocess({
+            typescript: {
+                compilerOptions: {
+                    target: 'es2019'
+                }
+            }
+        })
+    ]
 };
