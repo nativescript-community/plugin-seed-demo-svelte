@@ -33,7 +33,7 @@ module.exports = (env) => {
     const { redirect } = env;
 
     if (snippetConfig) {
-        snippetConfig(env);
+        snippetConfig(env, webpack);
     }
 
     webpack.chainWebpack((config) => {
