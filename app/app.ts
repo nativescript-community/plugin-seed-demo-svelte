@@ -10,4 +10,5 @@ import Menu from './Menu.svelte';
 import { installPlugin } from '../../demo-snippets/svelte/install';
 installPlugin();
 
+//@ts-ignore
 svelteNative(Menu, {});
