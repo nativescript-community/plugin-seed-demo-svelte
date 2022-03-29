@@ -36,9 +36,6 @@
     "bugs": {
         "url": "https://github.com/NativeScript/NativeScript/issues"
     },
-    "scripts": {
-        "postinstall": "npm --prefix ../demo-snippets install ../demo-snippets"
-    },
     "dependencies": {
         "@nativescript-community/template-snippet": "file:../demo-snippets",
         "@nativescript/core": "~8.2.1",
