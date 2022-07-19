@@ -26,6 +26,7 @@
         "types": ["node", "svelte"],
         "baseUrl": ".",
         "paths": {
+            "*": ["node_modules/*"],
             "~/*": ["app/*"],
             "@/*": ["app/*"]
         }
