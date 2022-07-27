@@ -37,7 +37,7 @@
         "url": "https://github.com/NativeScript/NativeScript/issues"
     },
     "dependencies": {
-        "@nativescript-community/template-snippet": "file:../demo-snippets",
+        "@nativescript-community/template-snippet": "link:../demo-snippets",
         "@nativescript/core": "~8.2.1",
         "@nativescript/theme": "~3.0.2",
         "svelte-native": "~1.0.2"
