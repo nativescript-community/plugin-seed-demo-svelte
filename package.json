@@ -1,5 +1,6 @@
 {
     "name": "@nativescript/template-blank-svelte",
+    "private": true,
     "main": "app/app.ts",
     "displayName": "Blank Svelte",
     "templateType": "App template",
