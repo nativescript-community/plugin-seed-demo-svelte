@@ -16,7 +16,6 @@
         "noEmitOnError": false,
         "noImplicitAny": false,
         "noImplicitReturns": false,
-        "noImplicitUseStrict": false,
         "noFallthroughCasesInSwitch": true,
         "allowSyntheticDefaultImports": true,
         "resolveJsonModule": true,
