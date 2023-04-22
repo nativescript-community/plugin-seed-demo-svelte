@@ -44,6 +44,7 @@
         "svelte-native": "~1.0.5"
     },
     "devDependencies": {
+        "@akylas/nativescript": "~8.4.1",
         "@nativescript/android": "~8.4.0",
         "@nativescript/ios": "8.4.0",
         "@nativescript/types": "~8.4.0",
