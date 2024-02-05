@@ -19,7 +19,6 @@
         "noFallthroughCasesInSwitch": true,
         "allowSyntheticDefaultImports": true,
         "resolveJsonModule": true,
-        "preserveValueImports": true,
         "esModuleInterop": true,
         "lib": ["esnext", "es2017", "dom"],
         "types": ["node", "svelte"],
