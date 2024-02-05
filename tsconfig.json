@@ -30,6 +30,6 @@
             "@/*": ["app/*"]
         }
     },
-    "include": ["app", "./references.d.ts", "../demo-snippets", "../demo-snippets/svelte"],
+    "include": ["app", "./references.d.ts", "../demo-snippets/svelte"],
     "exclude": ["node_modules", "platforms"]
 }
