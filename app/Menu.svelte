@@ -1,5 +1,5 @@
 <script lang="ts">
-    import { navigate } from 'svelte-native';
+    import { navigate } from '@nativescript-community/svelte-native';
     import { onMount } from 'svelte';
     import { demos } from '../../demo-snippets/svelte/install';
     function goToDemo(component) {
