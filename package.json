@@ -1,5 +1,5 @@
 {
-    "name": "@nativescript/template-blank-svelte",
+    "name": "demo-svelte",
     "private": true,
     "main": "app/app.ts",
     "displayName": "Blank Svelte",
@@ -30,7 +30,7 @@
         "template",
         "category-general",
         "svelte",
-        "svelte-native"
+        "@nativescript-community/svelte-native"
     ],
     "repository": "<fill-your-repository-here>",
     "homepage": "https://github.com/NativeScript/nativescript-app-templates",
@@ -38,17 +38,17 @@
         "url": "https://github.com/NativeScript/NativeScript/issues"
     },
     "dependencies": {
+        "@nativescript-community/svelte-native": "1.0.32",
         "@nativescript-community/template-snippet": "*",
         "@nativescript/core": "8.9.9",
-        "@nativescript/theme": "3.1.0",
-        "svelte-native": "1.0.29"
+        "@nativescript/theme": "3.1.0"
     },
     "devDependencies": {
         "@akylas/nativescript": "8.9.10",
         "@nativescript/android": "8.9.2",
         "@nativescript/ios": "8.9.4",
         "@nativescript/types": "8.9.1",
-        "@nativescript/webpack": "5.0.24",
+        "@nativescript/webpack": "5.0.29",
         "svelte": "4.2.20",
         "svelte-loader": "3.2.4",
         "svelte-native-preprocessor": "1.0.0",

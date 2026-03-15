@@ -42,7 +42,8 @@ module.exports = (env) => {
                 .merge([resolve(__dirname, `node_modules/${coreModulesPackageName}`), resolve(__dirname, 'node_modules'), `node_modules/${coreModulesPackageName}`, 'node_modules']);
             config.resolve.alias.merge({
                 '@nativescript/core': `${coreModulesPackageName}`,
-                'tns-core-modules': `${coreModulesPackageName}`
+                'tns-core-modules': `${coreModulesPackageName}`,
+                'svelte-native': '@nativescript-community/svelte-native'
             });
         }
         config.resolve.modules.add(resolve(__dirname, '../demo-snippets/node_modules'));
