@@ -44,9 +44,9 @@
         "@nativescript/theme": "3.1.0"
     },
     "devDependencies": {
-        "@akylas/nativescript": "8.9.10",
+        "@akylas/nativescript": "8.9.15",
         "@nativescript/android": "8.9.2",
-        "@nativescript/ios": "8.9.4",
+        "@nativescript/ios": "8.9.5",
         "@nativescript/types": "8.9.1",
         "@nativescript/webpack": "5.0.29",
         "svelte": "4.2.20",
