@@ -61,5 +61,22 @@ module.exports = (env) => {
         });
     });
 
-    return webpack.resolveConfig();
+    const config = webpack.resolveConfig();
+
+    config.externalsPresets = { node: false };
+    config.resolve.fallback = config.resolve.fallback || {};
+    // config.resolve.fallback.timers = require.resolve('timers/');
+    config.resolve.fallback.url = false;
+    config.resolve.fallback.stream = false;
+    config.resolve.fallback.timers = false;
+    config.resolve.fallback.buffer = false;
+    config.resolve.fallback.util = false;
+    config.resolve.fallback.path = false;
+    config.resolve.fallback.crypto = false;
+    config.resolve.fallback.fs = false;
+    config.resolve.fallback.assert = false;
+    config.resolve.fallback.tty = false;
+    config.resolve.fallback.os = false;
+
+    return config;
 };
